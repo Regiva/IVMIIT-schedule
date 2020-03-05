@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">IVMIIT-schedule</string>
+    <string name="error_was_occurred">Произошла ошибка</string>
+    <string name="have_connection">Подключение восстановлено</string>
+    <string name="lost_connection">Нет подключения</string>
+    <string name="in_development">В разработке</string>
+    <string name="server_error">Произошла ошибка на сервере</string>
+    <string name="connection_error">Ошибка подключения</string>
+    <string name="unknown_error">Произошла ошибка</string>
+    <string name="show_schedule">Показать расписание</string>
+    <string name="choose_group">Выберите свою группу</string>
+
+    <string-array name="courses">
+        <item>1 курс</item>
+        <item>2 курс</item>
+        <item>3 курс</item>
+        <item>4 курс</item>
+        <item>5 курс</item>
+    </string-array>
+
+    <string-array name="lesson_starts">
+        <item>8:30</item>
+        <item>10:10</item>
+        <item>11:50</item>
+        <item>14:00</item>
+        <item>15:40</item>
+        <item>17:50</item>
+        <item>19:30</item>
+    </string-array>
+
+    <string-array name="first_course">
+        <item>09-901 (1)</item>
+        <item>09-901 (2)</item>
+        <item>09-902 (1)</item>
+        <item>09-902 (2)</item>
+        <item>09-911 (1)</item>
+        <item>09-911 (2)</item>
+        <item>09-912 (1)</item>
+        <item>09-912 (2)</item>
+        <item>09-913 (1)</item>
+        <item>09-913 (2)</item>
+        <item>09-921 (1)</item>
+        <item>09-921 (2)</item>
+        <item>09-922 (1)</item>
+        <item>09-922 (2)</item>
+        <item>09-931 (1)</item>
+        <item>09-931 (2)</item>
+        <item>09-932 (1)</item>
+        <item>09-932 (2)</item>
+        <item>09-933 (1)</item>
+        <item>09-933 (2)</item>
+        <item>09-934 (1)</item>
+        <item>09-934 (2)</item>
+        <item>09-941 (1)</item>
+        <item>09-941 (2)</item>
+        <item>09-942 (1)</item>
+        <item>09-942 (2)</item>
+        <item>09-951 (1)</item>
+        <item>09-951 (2)</item>
+        <item>09-952 (1)</item>
+        <item>09-952 (2)</item>
+        <item>09-953 (1)</item>
+        <item>09-953 (2)</item>
+        <item>09-961 (1)</item>
+        <item>09-961 (2)</item>
+        <item>09-962 (1)</item>
+        <item>09-962 (2)</item>
+        <item>09-963 (1)</item>
+        <item>09-963 (2)</item>
+    </string-array>
+
+    <string-array name="second_course">
+        <item>1 курс</item>
+    </string-array>
+
+    <string-array name="third_course">
+        <item>1 курс</item>
+    </string-array>
+
+    <string-array name="fourth_course">
+        <item>1 курс</item>
+    </string-array>
+
+    <string-array name="fifth_course">
+        <item>1 курс</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,67 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
+    defaultConfig {
+        applicationId "com.regiva.ivmiit_schedule"
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    androidExtensions {
+        experimental = true
+    }
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    //core
+    implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.core:core-ktx:1.2.0'
+    //cicerone
+    implementation("ru.terrakok.cicerone:cicerone:5.0.0")
+    //DI
+    implementation("com.github.stephanenicolas.toothpick:toothpick-runtime:2.1.0")
+    kapt("com.github.stephanenicolas.toothpick:toothpick-compiler:2.1.0")
+    //mvi
+    implementation 'com.github.badoo.mvicore:mvicore:1.2.4'
+    implementation 'com.github.badoo.mvicore:mvicore-android:1.2.4'
+    implementation 'com.github.badoo.mvicore:mvicore-diff:1.2.4'
+    //RxJava
+    implementation "io.reactivex.rxjava2:rxandroid:2.1.1"
+    implementation("io.reactivex.rxjava2:rxjava:2.2.6")
+    //material design
+    implementation "com.google.android.material:material:1.2.0-alpha05"
+    //Retrofit2
+    implementation "com.squareup.retrofit2:retrofit:2.5.0"
+    implementation "com.squareup.retrofit2:adapter-rxjava2:2.5.0"
+    implementation "com.squareup.retrofit2:converter-gson:2.5.0"
+    //OkHTTP
+    implementation 'com.squareup.okhttp3:okhttp:3.12.1'
+    implementation "com.squareup.okhttp3:logging-interceptor:3.12.1"
+    //glide
+    implementation 'com.github.bumptech.glide:glide:4.9.0'
+    kapt 'com.github.bumptech.glide:compiler:4.9.0'
+    implementation "com.github.bumptech.glide:okhttp3-integration:4.9.0"
+    //imageviewer
+    implementation 'com.github.stfalcon:stfalcon-imageviewer:1.0.0'
+    implementation files('libs/poishadow-all.jar')
+    implementation files('libs/poishadow-all.jar')
+}

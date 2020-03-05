@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/newsfeed"
+        android:title="newsfeed"
+        android:icon="@drawable/ic_nav_home"/>
+    <item
+        android:id="@+id/student"
+        android:title="student"
+        android:icon="@mipmap/ic_student"/>
+    <item
+        android:id="@+id/teacher"
+        android:title="teacher"
+        android:icon="@mipmap/ic_teacher"/>
+    <item
+        android:id="@+id/calendar"
+        android:title="calendar"
+        android:icon="@drawable/ic_nav_home"/>
+    <item
+        android:id="@+id/info"
+        android:title="info"
+        android:icon="@drawable/ic_nav_home"/>
+</menu>
